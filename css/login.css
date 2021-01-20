@@ -1,8 +1,8 @@
 body {
-    background-image: url(images/1.jpg);
+    background-image: url(../images/2.png);
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat-y;
+    background-size: auto;
     height: 100%;
     margin: 0;
 }
@@ -13,14 +13,16 @@ body {
     text-align: center;
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
-    color: #8d549b;
+    color: #7f3191;
 }
 
 form {
-    width: 500px;
-    margin: 10px auto;
+    width: 400px;
+    margin: 15px auto;
+    margin-left: 13%;
+    margin-top: 3%;
     padding: 10px 20px;
-    background: rgb(213, 204, 223);
+    background: rgb(241, 236, 247);
     border-radius: 8px;
     border-style: outset;
     border-color: #e5c8ee
@@ -85,11 +87,16 @@ p {
 
 .headformat {
     font-size: xx-large;
-    display: block;
-    height: 45%;
-    margin: 0 auto;
+    display: inline-block;
+    margin-left: 15%;
+    height: 40%;
     text-align: center;
     font-style: italic;
     font-family: cursive;
     color: #791256;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
