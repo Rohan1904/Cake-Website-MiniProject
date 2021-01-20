@@ -1,0 +1,89 @@
+body{
+    background-image: url(images/Cake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+}
+.Registration{
+    margin: 0px auto;
+    width: 50%;
+    padding: 30%;
+    font-size: 20px; 
+    background-color:rgb(217, 205, 228);
+}
+.heading{
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    color:#520e63;
+}
+form {
+    max-width: 700px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background:rgb(213, 204, 223);
+    border-radius: 8px;
+    border-style:outset;
+    border-color:#e5c8ee
+  }
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="url"],
+  textarea,
+  select {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 12px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 60%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+  }
+  button {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #9f57b1;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #520b47;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+  }
+  input[type="checkbox"] {
+    margin: 0 4px 8px 0;
+  }
+  label{
+      text-align: left;
+      font-size: medium;
+      font-family: 'Times New Roman', Times, serif;
+      color:#520e63;
+  }
+  p{
+    text-align: left;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color:#520e63;
+  }
+  header{
+      height: 45%;
+      margin:0 auto;
+      text-align: center;
+      font-family: cursive;
+      font-size: xx-large;
+      color: #791256;
+      background-color: #e5c8ee;
+      
+  }
