@@ -6,21 +6,17 @@ body{
     height: 100%;
     margin: 0;
 }
-.Registration{
-    margin: 0px auto;
-    width: 50%;
-    padding: 30%;
-    font-size: 20px; 
-    background-color:rgb(217, 205, 228);
-}
+
 .heading{
+    margin: 0 auto;
+    display: block;
     text-align: center;
-    font-size: x-large;
+    font-size: medium;
     font-family: 'Times New Roman', Times, serif;
-    color:#520e63;
+    color:#8d549b;
 }
 form {
-    max-width: 700px;
+    width: 500px;
     margin: 10px auto;
     padding: 10px 20px;
     background:rgb(213, 204, 223);
@@ -35,20 +31,21 @@ form {
   input[type="url"],
   textarea,
   select {
+    margin: 2%;
     background: rgba(255,255,255,0.1);
     border: none;
-    font-size: 12px;
+    font-size: 15px;
     height: auto;
-    margin: 0;
     outline: 0;
     padding: 15px;
-    width: 60%;
+    width: 80%;
     background-color: #e8eeef;
     color: #8a97a0;
     box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
     margin-bottom: 30px;
   }
   button {
+    margin-left: 15%;
     padding: 19px 39px 18px 39px;
     color: #FFF;
     background-color: #9f57b1;
@@ -56,7 +53,7 @@ form {
     text-align: center;
     font-style: normal;
     border-radius: 5px;
-    width: 100%;
+    width: 70%;
     border: 1px solid #520b47;
     border-width: 1px 1px 3px;
     box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
@@ -66,24 +63,28 @@ form {
     margin: 0 4px 8px 0;
   }
   label{
+      margin: 2%;
       text-align: left;
-      font-size: medium;
+      font-size: large;
       font-family: 'Times New Roman', Times, serif;
       color:#520e63;
   }
   p{
+    display:inline-block;
     text-align: left;
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
     color:#520e63;
   }
-  header{
+  .headformat{
+      font-size: xx-large;
+      display:block;
       height: 45%;
       margin:0 auto;
       text-align: center;
+      font-style: italic;
       font-family: cursive;
-      font-size: xx-large;
       color: #791256;
-      background-color: #e5c8ee;
+      
       
   }
