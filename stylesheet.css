@@ -13,14 +13,14 @@ body {
     text-align: center;
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
-    color: #8d549b;
+    color: #b21db8;
 }
 
 form {
     width: 500px;
     margin: 10px auto;
     padding: 10px 20px;
-    background: rgb(213, 204, 223);
+    background: rgb(238, 187, 238);
     border-radius: 8px;
     border-style: outset;
     border-color: #e5c8ee
@@ -51,7 +51,7 @@ button {
     margin-left: 15%;
     padding: 19px 39px 18px 39px;
     color: #FFF;
-    background-color: #9f57b1;
+    background-color: #b21db8;
     font-size: 18px;
     text-align: center;
     font-style: normal;
@@ -61,7 +61,13 @@ button {
     border-width: 1px 1px 3px;
     box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
     margin-bottom: 10px;
+    cursor: pointer
+
+
 }
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
 
 input[type="checkbox"] {
     margin: 0 4px 8px 0;
@@ -72,7 +78,7 @@ label {
     text-align: left;
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
-    color: #520e63;
+    color: #9b11a0;
 }
 
 p {
@@ -80,7 +86,7 @@ p {
     text-align: left;
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
-    color: #520e63;
+    color: #9b11a0;
 }
 
 .headformat {
@@ -91,5 +97,6 @@ p {
     text-align: center;
     font-style: italic;
     font-family: cursive;
-    color: #791256;
+    color: white;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #db9eeb, 0 0 20px #e288e6, 0 0 25px #f082e7, 0 0 30px #e474ee, 0 0 35px #e430db;
 }

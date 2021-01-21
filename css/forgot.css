@@ -13,7 +13,7 @@ body {
     text-align: center;
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
-    color: #7f3191;
+    color: #b21db8;
 }
 
 form {
@@ -22,7 +22,7 @@ form {
     margin-left: 13%;
     margin-top: 3%;
     padding: 10px 20px;
-    background: rgb(241, 236, 247);
+    background:rgb(238, 187, 238);
     border-radius: 8px;
     border-style: outset;
     border-color: #e5c8ee
@@ -53,7 +53,7 @@ button {
     margin-left: 15%;
     padding: 19px 39px 18px 39px;
     color: #FFF;
-    background-color: #9f57b1;
+    background-color: #b21db8;
     font-size: 18px;
     text-align: center;
     font-style: normal;
@@ -65,6 +65,10 @@ button {
     margin-bottom: 10px;
 }
 
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
 input[type="checkbox"] {
     margin: 0 4px 8px 0;
 }
@@ -74,7 +78,7 @@ label {
     text-align: left;
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
-    color: #520e63;
+    color: #b21db8;
 }
 
 p {
@@ -82,7 +86,7 @@ p {
     text-align: left;
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
-    color: #520e63;
+    color: #b21db8;
 }
 
 .headformat {
