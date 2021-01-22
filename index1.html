@@ -17,7 +17,7 @@
 
 <body>
 
-    <form name="RegForm" action="index1.html" method="GET">
+    <form name="RegForm" action="index1.html" onSubmit="return formValidate();" method="GET">
         <div class="heading">
             <h1>Registration Form</h1><br>
         </div>
@@ -28,7 +28,7 @@
         <label for="femail">Email:</label><br>
         <input type="text" id="femail" name="femail" placeholder="Your Email"><br>
         <label for="fnum">Contact:</label><br>
-        <input type="tel" id="fnum" name="fnum" placeholder="Your Contact Number" pattern="0-9"><br>
+        <input type="text" id="fnum" name="fnum" placeholder="Your Contact Number"><br>
         <label for="fpass">Password:</label><br>
         <input type="password" id="fpass" name="fpass" placeholder="Your Password"><br>
         <label for="frpass">Confirm Password:</label><br>

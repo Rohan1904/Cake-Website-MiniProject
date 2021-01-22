@@ -6,7 +6,7 @@ function validate() {
     if (uemail == "") {
         alert("Email cannot be empty");
     }
-    if (upassword == "") {
+    else if (upassword == "") {
         alert("Password cannot be empty");
     }
 }
