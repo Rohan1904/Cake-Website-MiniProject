@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/xsl "href="contactstyle.xsl" ?> 
+ <details> 
+  <s> 
+   <name>Unnati Bhalekar</name> 
+   <no>8625096018</no> 
+   <email>unnatibhalekar12345@gmail.com</email> 
+  </s> 
+  <s> 
+   <name>Rohan Nagapure</name> 
+   <no>8149556866 </no> 
+   <email>rohannagapure</email> 
+  </s> 
+ </details> 
