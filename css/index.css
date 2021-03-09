@@ -51,6 +51,41 @@ body {
     border: solid #774caf;
 }
 
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    display: inline-block;
+    width: 500px;
+    margin: 10px;
+    height: 300px;
+}
+
+#Prizee {
+    float: right;
+    display: inline;
+}
+
+.cakename {
+    margin: 0%;
+    text-align: center;
+}
+
+#prize,
+#cost {
+    display: inline;
+}
+
+#cakeimg {
+    margin: 20px;
+    margin-bottom: 0px;
+    width: 80%;
+    height: 60%;
+}
+
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 

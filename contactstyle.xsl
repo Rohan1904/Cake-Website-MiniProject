@@ -11,10 +11,10 @@
     <th>Number</th> 
     <th>Email</th>
    </tr> 
-    <xsl:for-each select="details/s"> 
+    <xsl:for-each select="details/student"> 
    <tr> 
-    <td><xsl:value-of select="no"/></td> 
-    <td><xsl:value-of select="email"/></td> 
+    <td><xsl:value-of select="no" /></td> 
+    <td><xsl:value-of select="email" /></td> 
    </tr> 
     </xsl:for-each> 
     </table> 
