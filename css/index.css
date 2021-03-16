@@ -45,11 +45,11 @@ body {
     text-align: center;
 }
 
-.main_content {
+/* .main_content {
     margin-top: 1%;
     height: 100vh;
     border: solid #774caf;
-}
+} */
 
 .flex-container {
     display: flex;
