@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h2>Registration</h2>
+        <form action="" name="registration">
+
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname" />
+
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname" />
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+
+            <button type="submit">Register</button>
+
+        </form>
+    </div>
+    <script>
+        $(function() {
+            // Initialize form validation on the registration form.
+            // It has the name attribute "registration"
+            $('#registration').hide();
+
+            $("form[name='registration']").validate({
+                // Specify validation rules
+                rules: {
+                    // The key name on the left side is the name attribute
+                    // of an input field. Validation rules are defined
+                    // on the right side
+                    firstname: "required",
+                    lastname: "required",
+                    email: {
+                        required: true,
+                        // Specify that email should be validated
+                        // by the built-in "email" rule
+                        email: true
+                    },
+                    password: {
+                        required: true,
+                        minlength: 5
+                    }
+                },
+                // Specify validation error messages
+                messages: {
+                    firstname: "Please enter your firstname",
+                    lastname: "Please enter your lastname",
+                    password: {
+                        required: "Please provide a password",
+                        minlength: "Your password must be at least 5 characters long"
+                    },
+                    email: "Please enter a valid email address"
+                },
+                // Make sure the form is submitted to the destination defined
+                // in the "action" attribute of the form when valid
+                submitHandler: function(form) {
+                    form.submit();
+                }
+            });
+        });
+    </script>
+</body>
+
+
+</html>
